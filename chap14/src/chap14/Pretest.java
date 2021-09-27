@@ -10,10 +10,10 @@ public class Pretest {
 		// 드라이버 검색하기
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			System.out.println("드라이버 검색 성공!");
+			System.out.println("드라이버 검색 성공!!");
 		}
 		catch(ClassNotFoundException e) {
-			System.err.println("드라이버 검색 실패!");
+			System.err.println("드라이버 검색 실패!!");
 			System.exit(0);
 		}
 		
