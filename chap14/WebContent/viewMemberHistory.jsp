@@ -33,8 +33,8 @@ try{
 	String dbUser = "hr";
 	String dbPass = "hr";
 	
-	String query = "select * from MEMBER_HISTORY where MEMBERID = '" + memberID + "'" ;
-	
+	String query = "select * from MEMBER_HISTORY where MEMBERID = '" + memberID + "'";
+	System.out.println(query);
 	//2. 커넥션 생성
 	conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
 	//3. statement 생성

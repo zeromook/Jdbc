@@ -56,7 +56,7 @@ public class DBCPInit extends HttpServlet{
           
           Class.forName("org.apache.commons.dbcp2.PoolingDriver");
           PoolingDriver driver = (PoolingDriver)DriverManager.getDriver("jdbc:apache:commons:dbcp:");
-          driver.registerPool("chap14", connectionPool);
+          driver.registerPool("guestbook", connectionPool);
       }catch(Exception e) {
          throw new RuntimeException(e);
       }
