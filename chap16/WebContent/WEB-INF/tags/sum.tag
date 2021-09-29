@@ -10,4 +10,5 @@
 <c:forEach var="num" begin="${begin}" end="${end}">
 	<c:set var="sum" value="${sum+num}"></c:set>
 </c:forEach>
+
 <jsp:doBody/>
